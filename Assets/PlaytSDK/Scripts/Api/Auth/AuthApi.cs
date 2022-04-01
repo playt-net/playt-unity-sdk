@@ -20,13 +20,7 @@ namespace PlaytSDK.Scripts.Api.Auth
             _config = config;
             _url = config.BaseUrl + ServiceUrl;
         }
-
-        /*
-         *
-         {"status":"BAD_REQUEST","statusCode":400,"error":"JSON parse error: Unexpected character ('%' (code 37)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('%' (code 37)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')\n at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 2]"}
-         * 
-         */
-
+        
         [ItemCanBeNull]
         public async Task<AuthTokenResponse> Login(string email, string password)
         {

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9596a2bbfb38046c5b0cf992cfdcf7c0, type: 3}
   m_Name: PlaytSettings
   m_EditorClassIdentifier: 
-  apiKey: 7ddbd44a-a382-4395-89e1-2dd096f7ea13
+  apiKey: 
   baseUrl: http://localhost:8080
